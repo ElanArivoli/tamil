@@ -98,6 +98,36 @@ main.container {
   text-align: center;
 }
 
+#tamilMatrix {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Force cells to shrink */
+}
+
+#tamilMatrix th, #tamilMatrix td {
+  text-align: center;
+  padding: 4px;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  #tamilMatrix th, #tamilMatrix td {
+    padding: 2px;
+    font-size: 0.8rem; /* Shrink letters */
+  }
+
+  .matrix-title {
+    font-size: 1.2rem; /* Smaller title */
+  }
+
+  .action-button {
+    font-size: 0.9rem; /* Smaller buttons */
+    padding: 6px 10px;
+  }
+}
+
+
 .matrix-title {
   margin-bottom: 15px;
   color: #4CAF50;
