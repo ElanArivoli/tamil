@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elanarivoli.github.io/tamil/sitemap.xml
